@@ -64,6 +64,8 @@ export class SpecKitIntegration {
   }
 
   public isSpecKitInitialized(): boolean {
+    // Always re-check initialization status to handle directory changes
+    this.checkInitialization();
     return this.isInitialized;
   }
 
@@ -130,6 +132,9 @@ Once initialized, you'll have access to these slash commands:
   }
 
   public getAvailableCommands(): string[] {
+    // Always check current initialization status
+    this.checkInitialization();
+
     if (!this.isInitialized) {
       return [];
     }
@@ -154,6 +159,9 @@ Once initialized, you'll have access to these slash commands:
     message: string;
     commands: string[];
   } {
+    // Always refresh initialization status when getting status
+    this.checkInitialization();
+
     let message = '';
 
     if (!this.isAvailable) {

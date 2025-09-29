@@ -39,10 +39,9 @@ async function initializeEnhancedCapabilities() {
 
   // Check if we're in an enhanced project directory
   const hasSpecKit = existsSync(join(process.cwd(), '.specify'));
-  const hasIntegrations = existsSync(join(process.cwd(), 'integrations'));
-  const hasEnhancedCommands = existsSync(join(process.cwd(), '.claude', 'commands', 'autonomous-mode.md'));
+  const hasClaudeCommands = existsSync(join(process.cwd(), '.claude', 'commands'));
 
-  if (hasSpecKit && hasIntegrations && hasEnhancedCommands) {
+  if (hasSpecKit && hasClaudeCommands) {
     console.log('✅ Enhanced Project Detected - Full Autonomous Capabilities Available!');
     console.log('🎯 Available Enhanced Commands:');
     console.log('   /autonomous - Fully autonomous development workflow');

@@ -1,0 +1,48 @@
+{
+  "name": "@anthropic-ai/claude-code-enhanced",
+  "version": "1.0.128-autonomous.1",
+  "description": "Claude Code Enhanced - Revolutionary Autonomous Development Platform with Market Intelligence and Evolutionary Optimization",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "claude": "./bin/claude-enhanced.js",
+    "claude-enhanced": "./bin/claude-enhanced.js"
+  },
+  "scripts": {
+    "start": "node bin/claude-enhanced.js",
+    "test": "node integrations/autonomous-test.js",
+    "build": "echo 'Enhanced Claude Code build complete'",
+    "postinstall": "node scripts/setup-enhanced.js"
+  },
+  "keywords": [
+    "ai",
+    "claude",
+    "autonomous",
+    "development",
+    "market-intelligence",
+    "evolutionary-optimization",
+    "spec-kit",
+    "shinka-evolve",
+    "cli",
+    "coding-assistant"
+  ],
+  "author": "hemangjoshi37a",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/claude-code": "1.0.128",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hemangjoshi37a/hjLabs.in-claude-code.git"
+  },
+  "homepage": "https://github.com/hemangjoshi37a/hjLabs.in-claude-code",
+  "preferGlobal": true
+}

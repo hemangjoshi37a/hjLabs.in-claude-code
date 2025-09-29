@@ -1,6 +1,6 @@
 // Test script for the autonomous Claude Code system
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 console.log('🧪 AUTONOMOUS CLAUDE CODE SYSTEM TEST');
 console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n');

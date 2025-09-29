@@ -4,35 +4,45 @@
 
 [npm]: https://img.shields.io/npm/v/@anthropic-ai/claude-code.svg?style=flat-square
 
-Claude Code is an **autonomous, self-evolving development platform** that combines intelligent AI decision-making with market-driven development. Beyond traditional coding assistance, it features **fully autonomous development workflows** that automatically orchestrate complex tasks, incorporate real-time market intelligence, and continuously evolve your codebase using evolutionary algorithms.
+Claude Code is an **autonomous, multimodal development platform** that combines intelligent AI decision-making with visual context integration and market-driven development. Beyond traditional coding assistance, it features **fully autonomous development workflows** with **browser automation and visual intelligence** that automatically orchestrate complex tasks, incorporate real-time market intelligence, and continuously evolve your codebase using evolutionary algorithms.
 
 ## 🤖 Revolutionary Autonomous Development
 
 Experience the future of software development with **Autonomous Claude Code** - a system that:
 
 - **🧠 Makes Intelligent Decisions**: Automatically selects and executes optimal development workflows
+- **👁️ Visual Intelligence**: Takes screenshots and makes decisions based on actual visual analysis
+- **🌐 Browser Automation**: Automates web interactions with human-level visual understanding
 - **📊 Stays Market-Competitive**: Incorporates real-time technology trends and user demands
 - **🔄 Continuously Evolves**: Self-improving code optimization using evolutionary algorithms
 - **⚡ Takes Proactive Action**: Anticipates needs without waiting for explicit commands
-- **🌐 Has Global Awareness**: Integrates web search for market intelligence and competitive analysis
 
 ### ⚡ One Command, Infinite Possibilities
 
 ```bash
-# Simply describe what you want to build
-/autonomous "Create a developer tool that addresses current market gaps"
+# Autonomous development with visual intelligence
+/autonomous-web "Create a modern e-commerce platform with visual testing"
 
 # Watch as it automatically:
-# 1. 🔍 Researches market trends and competitors
-# 2. 📋 Creates project constitution with market intelligence
-# 3. 📝 Generates specifications with competitive analysis
-# 4. 🔧 Plans implementation with trending technologies
-# 5. ⚙️  Executes tasks with continuous monitoring
-# 6. 🧬 Evolves code using multi-objective optimization
-# 7. 🔄 Schedules future improvement cycles
+# 1. 🔍 Researches market trends and competitors with screenshots
+# 2. 📋 Creates cross-environment workflow (terminal + browser)
+# 3. ⚡ Executes terminal operations (build, test, deploy)
+# 4. 🌐 Performs browser testing with visual validation
+# 5. 👁️ Makes AI decisions based on screenshots
+# 6. 🧬 Evolves and optimizes based on visual performance
+# 7. 📊 Provides comprehensive visual evidence
+
+# Classic autonomous development
+/autonomous "Create a developer tool that addresses current market gaps"
 ```
 
 ## 🎯 Enhanced Development Workflows
+
+### Autonomous Web Development
+- `/autonomous-web`: Fully autonomous development with visual intelligence
+- `/browse`: Natural language browser automation with AI decision-making
+- **Visual Context Integration**: Screenshots fed to LLM for intelligent decisions
+- **Cross-Environment Workflows**: Seamless terminal + browser coordination
 
 ### Structured Development (Spec-Kit Integration)
 - `/constitution`: Create market-aware project principles
